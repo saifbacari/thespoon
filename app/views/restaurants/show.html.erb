@@ -1,0 +1,9 @@
+<h1><%= @restaurant[:name] %></h1>
+
+<p>
+  <%= @restaurant[:category].capitalize %>
+  restaurant located
+  at <%= @restaurant[:address] %>
+
+  <%= link_to "back to list", restaurants_path %>
+</p>
